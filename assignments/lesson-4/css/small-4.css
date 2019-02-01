@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Sarabun|Secular+One');
+
+body {
+    background-color: #fdfff4;
+    font-family: Sarabun, Arial, sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+
+header {
+    background-color: #5c6ec9;
+    text-align: center;
+}
+
+header img, .headings {
+	display: inline-block;
+    vertical-align: middle;
+    margin: 10px;
+    color: #ffffff
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul a {display:block;width:300px;}
+
+nav {
+    background-color: #74b8ed;
+    margin-bottom: -30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5em;
+    padding-left:20px;
+    padding-right:20px;
+    margin-left: -40px;
+    width: 100%;
+    text-align: center;
+}
+
+.current {
+    background-color: #5c6ec9;
+    margin-left: -40px;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+#logoimage {
+    width: 100px;
+}
+
+.headings {
+    line-height: 1px;
+}
+
+.headings h1 {
+    font-size: 2em;
+    font-family: "Secular One", Arial, sans-serif;
+    color: #ffffff;
+}
+
+.motto {
+    font-size: 1em;
+    color: darkgrey;
+}
+
+section {
+    padding: 10px;
+}
+
+img {
+    width: 500px;
+}
