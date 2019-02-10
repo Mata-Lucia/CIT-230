@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Sarabun|Secular+One');
+
+body {
+    background-color: #fdfff4;
+    font-family: Sarabun, Arial, sans-serif;
+    padding: 10px;
+    width: 100%;
+}
+
+/* HEADER */
+
+header {
+    background-color: #71816D;
+    text-align: center;
+}
+
+header img, .headings {
+    display: inline-block;
+    padding: 10px;
+}
+
+.headings .motto {
+    color: #394053;
+    font-size: 1rem;
+}
+
+#logoimage {
+    width: 7%;
+    float: left;
+}
+
+.headings h1 {
+    font-size: 3em;
+    font-family: "Secular One", Arial, sans-serif;
+    color: #C9B79C;
+    margin-bottom: 0;
+    text-shadow: 3px 3px 5px #777;
+}
+
+.headings {
+    line-height: 0.75rem;
+}
+
+/* NAVIGATION */
+
+nav {
+    background-color: #C9B79C;
+    margin-bottom: -30px;
+    font-size: 1rem;
+    padding: 2px;
+}
+
+ul {
+    list-style-type: none;
+    display: none;
+}
+
+ul a {
+    display: block;
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5em;
+    padding-left:50px;
+    padding-right:50px;
+    margin-left: -40px;
+    width: 100%;
+    text-align: center;
+}
+
+.currentpage {
+    color: #394053;
+}
+
+nav a:hover {
+    color: #71816D;
+}
+
+/* MAIN */
+
+section {
+    padding: 10px;
+}
+
+.firstsection h2, article h2 {
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: 3px 3px 5px #777;
+    color: #333333;
+}
+
+.herodiv {
+    margin: auto;
+    position: relative;
+}
+
+#hero {
+    width: 100%;
+}
+
+.weathersummary {
+    position: absolute;
+    top: 45px;
+    right: 110px;
+	border: 1px solid #000;
+	padding: 1.5rem;
+    box-shadow: 0 0 30px #fff;
+    line-height: 2px;
+    font-weight: bold;
+}
+
+.weathersummary h3 {
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+
+.forecast {
+    display: none;
+}
+
+article img {
+    width: 100%;
+    box-shadow: 0 0 30px #fff;
+}
+
+article {
+    background-color: #F1E0C5;
+    border: 2px solid #394053;
+    padding: 20px;
+    overflow: auto;
+}
+
+article h2 {
+    text-align: left;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    color: #394053;
+}
+
+article h3 {
+    margin-top: 0;
+}
+
+.contactinfo {
+    background-color: #71816D;
+    line-height: 2px;
+    overflow: auto;
+}
+
+.contactinfo h2 {
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.25rem;
+
+}
+
+.contactinfo h2, .contactinfo p, .socialmedia {
+    padding-left: 80px;
+}
+
+.contact {
+    padding-top: 10px;
+}
+
+#map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border-style: inset;
+}
+.socialmedia img {
+    width: 30px;
+    padding-bottom: 5px;
+    
+}
+/* FOOTER */
+
+footer {
+    background-color: #394053;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.5rem;
+    padding: 5px;
+    line-height: 2px;
+    
+}
+
