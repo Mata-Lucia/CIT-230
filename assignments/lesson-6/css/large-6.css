@@ -1,18 +1,27 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 760px) {
 
-    nav li {
+    .mainmenu li:first-child { 
+        display: none;	
+    }
+    
+    .mainmenu li {
         display: inline-block;
     
     }
     
-    nav p {
-        display: none;
-    }
-    
-    ul {
+    .mainmenu ul {
         display: inline-block;
     }
-    
+
+    .mainmenu a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1.5em;            
+        width: 100%;
+        text-align: center;
+        padding: .75rem;
+    }
+
     section.forecast {
         display: block;
         padding: 10px;
@@ -24,7 +33,7 @@
     }
     
     section.forecast img {
-        width: 30%;
+        width: 80%;
     }
     
     table {
@@ -35,11 +44,14 @@
       
     table, th, td {
         border: 1px solid black;
+        font-size: 1rem;
+        padding: 20px;
       }
     
     th {
         background-color: #71816D;
         height: 50px;
+        width: 100px;
         font-size: 2rem;
         color: #C9B79C;
     
@@ -62,4 +74,4 @@
     
     }
     
-    }
+}

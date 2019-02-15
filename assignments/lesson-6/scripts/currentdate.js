@@ -1,4 +1,3 @@
-function myFunction() {
     var today = new Date();
     
     var weekday = new Array(7);
@@ -38,6 +37,3 @@ function myFunction() {
 
    var result =  n + ", " + d + " " + m + " " + y;
    document.getElementById("date").innerHTML = result;
-
-
-}

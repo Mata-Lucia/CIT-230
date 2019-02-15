@@ -20,10 +20,10 @@
                 </div> 
             </section>
             <nav>
-                <p>&#9776; Menu</p>
                 <ul class="mainmenu">
+                    <li class="menubutton"><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
                     <li><a href="#">Home</a></li>
-                    <li><a href="preston-4.html" class="currentpage">Preston</a></li>
+                    <li><a href="preston-6.html" class="currentpage">Preston</a></li>
                     <li><a href="#">Soda Springs</a></li>
                     <li><a href="#">Fish Haven</a></li>
                     <li><a href="#">Storm Center</a></li>
@@ -35,7 +35,12 @@
             <section class="firstsection">
                 <h2>Preston</h2>
                 <div class="herodiv">
-                    <img id="hero" src="images/heroimage.jpg" alt="View of the mountains">
+                    <picture class="heroimg">
+                        <source media="(max-width: 500px)" srcset="images/heroimage500.jpg">
+                        <source media="(max-width: 800px)" srcset="images/heroimage800.jpg">
+                        <source media="(max-width: 1000px)" srcset="images/heroimage1000.jpg">
+                        <img src="images/heroimage1000.jpg" alt="Sunny field">
+                    </picture>
                     <section class="weathersummary">
                         <h3>Weather Summary</h3>
                         <p>Currently: Sunny</p>
@@ -104,5 +109,6 @@
             <span id="date">Placeholder</span>
         </footer>
         <script src="scripts/currentdate.js"></script>
+        <script src="scripts/hamburger.js"></script>
     </body>
 </html>
