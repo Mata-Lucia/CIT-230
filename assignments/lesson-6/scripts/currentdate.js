@@ -35,7 +35,9 @@ function myFunction() {
     var m = month[today.getMonth()];
   
     var y = today.getFullYear();
-    
-   document.getElementById("date").innerHTML = n + ", " + d + " " + m + " " + y;
+
+   var result =  n + ", " + d + " " + m + " " + y;
+   document.getElementById("date").innerHTML = result;
+
 
 }
