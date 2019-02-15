@@ -192,9 +192,10 @@ footer {
     background-color: #394053;
     color: #ffffff;
     text-align: center;
-    font-size: 0.5rem;
-    padding: 5px;
-    line-height: 2px;
+    font-size: 1rem;
+    padding: 20px;
+    padding-bottom: 30px;
+    line-height: 5px;
     
 }
 
