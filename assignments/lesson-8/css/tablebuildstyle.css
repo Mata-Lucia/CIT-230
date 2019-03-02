@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,700');
+
 table, th, td {
     border: 1px solid #CFD8D3;
     border-collapse: collapse;
-    font-family: 'Ubuntu', sans-serif;
     padding: 5px;
   }
 
@@ -12,17 +13,21 @@ table {
 td {
     text-align: center;
     font-size: 0.75rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 300;
 }
 
 th {
     background-color: #7fb9c2;
     font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
 }
 
 tbody tr:first-child {
     background-color: #628ca6;
     color: #ffffff;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 tr:nth-child(even) {
