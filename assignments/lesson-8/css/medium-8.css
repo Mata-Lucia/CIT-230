@@ -66,7 +66,14 @@ th {
 article img {
     width: 40%;
     float: right;
+}
 
+.weathersummary h3 {
+    font-size: 1.25rem;
+}
+
+.weathersummary p {
+    font-size: 1rem;
 }
 
 .left {
