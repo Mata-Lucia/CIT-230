@@ -145,6 +145,7 @@ main picture.heroimg img {
 article img {
     width: 100%;
     box-shadow: 0 0 30px #fff;
+    margin-left: 40px;
 }
 
 article {
@@ -248,7 +249,7 @@ main h2 {
 
 main p {
     padding-left: 40px;
-    font-size: 1rem;
+    font-size: 1.25rem;
     margin-top: 0;
 }
 
