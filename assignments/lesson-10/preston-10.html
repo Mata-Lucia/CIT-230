@@ -46,11 +46,11 @@
                     </picture>
                     <section class="weathersummary">
                         <h3>Weather Summary</h3>
-                        <p>Currently: Sunny</p>
-                        <p>High: <span id="one">76</span>F</p>
+                        <p>Currently: <span id="current"></span></p>
+                        <p>High: <span id="high"></span>F</p>
                         <p>Wind Chill: <span id="output"></span> F</p>
-                        <p>Humidity: 69%</p>
-                        <p>Wind Speed: <span id="two">5</span>mph</p>
+                        <p>Humidity: <span id="humidity"></span></p>
+                        <p>Wind Speed: <span id="wind"></span>mph</p>  
                     </section>
                 </div>
             </section>
@@ -73,7 +73,6 @@
                             <td><img src="images/sunny.jpg" id="weathericonthree" alt="sunnyweather"><br><span id="daythreetemp"></span>High 78&deg;F</td>
                             <td><img src="images/sunny.jpg" id="weathericonfour" alt="sunnyweather"><br><span id="dayfourtemp"></span>High 80&deg;F</td>
                             <td><img src="images/sunny.jpg" id="weathericonfive" alt="sunnyweather"><br><span id="dayfivetemp"></span>High 76&deg;F</td>
-
                         </tr>
                     </tbody>
                 </table>
@@ -114,6 +113,6 @@
         </footer>
         <script src="scripts/currentdate.js"></script>
         <script src="scripts/hamburger.js"></script>
-        <script src="scripts/windchill.js"></script>
+        <script src="scripts/weather.js"></script>
     </body>
 </html>
