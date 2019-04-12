@@ -1,5 +1,5 @@
 let weatherRequest = new XMLHttpRequest();
-var apiURLstring = 'https://api.openweathermap.org/data/2.5/weather?id=5607916&units=imperial&APPID=c1457f18c70d984cbefc0e7449d3ad9c';
+var apiURLstring = 'https://api.openweathermap.org/data/2.5/weather?zip=84150&units=imperial&APPID=c1457f18c70d984cbefc0e7449d3ad9c';
 weatherRequest.open('GET', apiURLstring);
 weatherRequest.send()
 weatherRequest.onload =  function () {
@@ -17,7 +17,8 @@ weatherRequest.onload =  function () {
     var temp = weatherData.main.temp;
     var speed = document.getElementById("wind").innerHTML;
     speed = parseFloat (speed);
-      
+    
+        
     var result = 35.74 + 0.6215 * temp - 35.75 * Math.pow(speed, 0.16)
                  + 0.4275 * temp * Math.pow(speed, 0.16);
         
